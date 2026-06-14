@@ -273,3 +273,23 @@ This template benefits from a lighter c1 color and a darker c2 color to ensure t
   --c1: 194,123,125;
   --c2: 157,86,89;
 }
+
+#alastair {
+  --c1: 129,184,162;
+  --c2: 97,159,159;
+}
+
+#dawn {
+  --c1: 185,121,110;
+  --c2: 125,85,79;
+}
+
+#solace {
+  --c1: 210,155,120;
+  --c2: 196,144,156;
+}
+
+#nathan {
+  --c1: 146,157,169;
+  --c2: 103,128,161;
+}
