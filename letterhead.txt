@@ -1,0 +1,275 @@
+/*************************************
+LETTERHEAD is a custom template created by MEADOW for SODA's use only.
+*************************************/
+
+.letter-head {
+  position:relative;
+  margin:50px auto 25px;
+  border:1px solid rgba(var(--c1), 0.4);
+  width:425px;
+  padding:25px 25px 0px 25px;
+  background:rgba(var(--white));
+  font-family:urbanist;
+  font-size:14.5px;
+  font-weight:500;
+  line-height:22px;
+  text-align:left;
+  color:rgba(var(--black));
+  
+  --black:72,72,72;
+  --white:243,243,243;
+  --gray:231,231,231;
+}
+
+/* BOOKMARK */
+
+.lh-bookmark {
+  position:absolute;
+  z-index:4;
+  top:0px;
+  left:12px;
+  width:50px;
+  height:30%;
+  background:rgba(var(--c1));
+  background:linear-gradient(to bottom, rgba(var(--c1)) 35%,  rgba(var(--c2)));
+  }
+
+.lh-bookmark:before {
+  content:'';
+  position:absolute;
+  left:0px;
+  top:-11px;
+  display:block;
+  width:50px;
+  height:11px;
+  background:rgba(var(--c1));
+  border-radius:5px 1px 0px 0px;
+}
+
+.lh-bookmark:after {
+  content:'';
+  position:absolute;
+  right:-10px;
+  top:-11px;
+  display:block;
+  border-left:5px solid rgba(var(--c2));
+    border-bottom:5px solid rgba(var(--c2));
+    border-right:5px solid rgba(var(--c2), 0);
+    border-top:5px solid rgba(var(--c2), 0);
+  border-radius:1px 0px 0px 0px;
+}
+
+.lh-bmborder {
+  position:absolute;
+  width:0px;
+  top:100%;
+  left:0px;
+    border-left:25px solid rgba(var(--c2), 1);
+    border-bottom:25px solid rgba(var(--c2), 0);
+    border-right:25px solid rgba(var(--c2), 1);
+    border-top:25px solid rgba(var(--c2), 1);
+}
+
+.lh-bookmark date {
+  display:block;
+  transform:rotate(-90deg);
+  width:90px;
+  height:50px;
+  line-height:50px;
+  position:absolute;
+  top:20px;
+  left:-20px;
+  text-transform:uppercase;
+  color:rgba(var(--c2));
+  text-align:center;
+  text-shadow:-1px 0 rgba(var(--c1)), 0 1px rgba(var(--c1)), 1px 0 rgba(var(--c1)), 0 -1px rgba(var(--c1));
+  font-weight:600;
+}
+
+.lh-bookmark date b {
+  color:rgba(var(--white), 0.85);
+  font-weight:500;
+  text-shadow:-1px 0 rgba(var(--c2)), 0 1px rgba(var(--c2)), 1px 0 rgba(var(--c2)), 0 -1px rgba(var(--c2));
+  margin-right:4px;
+}
+
+/* BODY */
+.lh-body {
+  display:block;
+  position:relative;
+  border:2px solid rgba(var(--c1), 0.25);
+  border-bottom:0px;
+  padding:45px 45px 35px 45px;
+  margin:11px 11px 0px 11px;
+}
+
+.lh-body:first-letter {
+  font-family:mea culpa;
+  font-weight:700;
+  padding:0px 4px 0px 2px;
+  font-size:35px;
+  display:inline-block;
+  color:rgba(var(--c2));
+    background: -webkit-linear-gradient(bottom left, rgba(var(--c1)), rgba(var(--c2)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  text-shadow:none;
+}
+
+.lh-body b {
+  font-weight:700;
+  color: rgba(var(--c1));
+  background: -webkit-linear-gradient(bottom left, rgba(var(--c1)), rgba(var(--c2)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  text-shadow:none;
+}
+
+.lh-body i {
+  opacity:0.75;
+}
+
+.lh-body b i {
+  opacity:1;
+}
+
+.lh-body u {
+  text-decoration:none; 
+  border-bottom:2px solid rgba(var(--c2), 0.75);
+  font-weight:600;
+}
+
+.lh-body a {
+  color:rgba(var(--c2));
+  border-bottom:2px solid rgba(var(--black), 0.75);
+  font-weight:600;
+}
+
+.lh-body a:hover {
+  cursor:crosshair;
+}
+
+.lh-body hr {
+  margin:35px 115px;
+  border:0px;
+  border-top:1px solid rgba(var(--black), 0.25);
+}
+
+.lh-body span.dice-roll {
+  display:inline-block;
+  position:relative;
+  line-height:25px;
+}
+
+.lh-body span.dice-roll b {
+  display:none;
+}
+
+.lh-body span.dice-roll:before {
+  content:'\e93c';
+  position:relative;
+  font-family:starry;
+  font-size:25px;
+  line-height:25px;
+  margin-right:7px;
+  display:inline-block;
+  float:left;
+  color: rgba(var(--c1));
+  background: -webkit-linear-gradient(bottom left, rgba(var(--c1)), rgba(var(--c2)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  text-shadow:none;
+}
+
+/* STAMP */
+
+.lh-stamp {
+  position:absolute;
+  bottom:12px;
+  right:12px;
+  width:65px;
+  height:65px;
+  background:rgba(var(--c1));
+  background:linear-gradient(to bottom right, rgba(var(--c1)) 55%, rgba(var(--c2)));
+  border-radius:65px 100px 90px 75px;
+  border:5px solid rgba(var(--c2), 0.65);
+}
+
+.lh-stamp:before {
+  content:'';
+  display:block;
+  width:65px;
+  height:65px;
+  border-radius:65px 100px 90px 75px;
+  border:2px solid rgba(var(--white),0.35);
+  border-left:0px;
+  border-right:0px;
+  position:absolute;
+  top:-2px;
+}
+
+.lh-stamp span {
+  width:45px;
+  height:45px;
+  font-size:45px;
+  padding:10px;
+  border-radius:100%;
+  color:rgba(var(--c2));
+  text-shadow:-1px 0 rgba(var(--c1)), 0 1px rgba(var(--c1)), 1px 0 rgba(var(--white), 0.75), 0 -1px rgba(var(--c1));
+  position:relative;
+  margin-left:-2px;
+  z-index:4;
+}
+
+/* TAG */
+
+.lh-tagsec {
+  background:rgba(var(--c1), 0.15);
+  margin-left:-25px;
+  margin-right:-25px;
+  padding:0px 35px 35px;
+  border-radius:0px 0px 7px 7px;
+}
+
+.lh-tag {
+  padding:25px 60px 25px 45px;
+  border:2px solid rgba(var(--c1), 0.25);
+  border-top:0px;
+  margin-left:1px; 
+  margin-right:1px;
+  text-align:left;
+  display:flex;
+  flex-wrap:wrap;
+  gap:5px 20px;
+}
+
+.lh-tag a.user-tagged {
+  text-transform:lowercase;
+  font-size:35px;
+  line-height:25px;
+  font-family:mea culpa;
+  font-weight:700;
+  color:rgba(var(--c2));
+  text-shadow:-1px 0 rgba(var(--white)), 0 1px rgba(var(--white)), 1px 0 rgba(var(--white)), 0 -1px rgba(var(--white));
+}
+
+.lh-tag note {
+  width:100%;
+  line-height:18px;
+  display:block;
+}
+
+/********************************
+COLOR CUSTOMIZATION
+
+Give each character a new ID name, i.e. peter, wendy, etc. and choose RGBA versions of their colors—I like finding them on color-hex.com.
+
+At the top of the template, next to <div class="letter-head">, you'll see "id=default". Change "default" to the character name to change colors.
+
+This template benefits from a lighter c1 color and a darker c2 color to ensure the stamp design is legible. 
+********************************/
+
+#default {
+  --c1: 194,123,125;
+  --c2: 157,86,89;
+}
