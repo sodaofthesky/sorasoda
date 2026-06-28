@@ -247,7 +247,7 @@ LETTERHEAD is a custom template created by MEADOW for SODA's use only.
   text-transform:lowercase;
   font-size:18px;
   line-height:25px;
-  font-family:tapestry;
+  font-family:carattere !important;
   font-weight:700;
   color:rgba(var(--c2));
   text-shadow:-1px 0 rgba(var(--white)), 0 1px rgba(var(--white)), 1px 0 rgba(var(--white)), 0 -1px rgba(var(--white));
