@@ -285,8 +285,8 @@ This template benefits from a lighter c1 color and a darker c2 color to ensure t
 }
 
 #solace {
-  --c1: 196,144,156;
-  --c2: 210,155,120;
+  --c1: 255,245,238;
+  --c2: 188,143,143;
 }
 
 #nathan {
