@@ -298,3 +298,8 @@ This template benefits from a lighter c1 color and a darker c2 color to ensure t
   --c1: 192,169,163;
   --c2: 139,123,108;
 }
+
+#asteria {
+  --c1: 198,170,92;
+  --c2: 205,147,84;
+}
